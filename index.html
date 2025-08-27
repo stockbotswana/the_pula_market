@@ -1,1118 +1,5 @@
 
 
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--  <meta charset="UTF-8">-->
-<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-<!--  <title>The Pula Market - Botswana's Complete Online Marketplace</title>-->
-<!--  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">-->
-<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">-->
-<!--  <style>-->
-<!--    :root {-->
-<!--      &#45;&#45;primary: #2A6D3F;-->
-<!--      &#45;&#45;secondary: #E7B75F;-->
-<!--      &#45;&#45;accent: #D9534F;-->
-<!--      &#45;&#45;light-bg: #F8F9FA;-->
-<!--      &#45;&#45;dark-text: #212529;-->
-<!--      &#45;&#45;white: #FFFFFF;-->
-<!--      &#45;&#45;gray: #6C757D;-->
-<!--      &#45;&#45;light-gray: #DEE2E6;-->
-<!--      &#45;&#45;shadow: 0 4px 12px rgba(0, 0, 0, 0.1);-->
-<!--      &#45;&#45;transition: all 0.3s ease;-->
-<!--      &#45;&#45;housing: #3498DB;-->
-<!--      &#45;&#45;healthcare: #9B59B6;-->
-<!--      &#45;&#45;cars: #E74C3C;-->
-<!--      &#45;&#45;food: #F39C12;-->
-<!--    }-->
-
-<!--    * {-->
-<!--      margin: 0;-->
-<!--      padding: 0;-->
-<!--      box-sizing: border-box;-->
-<!--    }-->
-
-<!--    body {-->
-<!--      font-family: 'Open Sans', sans-serif;-->
-<!--      color: var(&#45;&#45;dark-text);-->
-<!--      line-height: 1.6;-->
-<!--      background-color: var(&#45;&#45;light-bg);-->
-<!--    }-->
-
-<!--    h1, h2, h3, h4, h5 {-->
-<!--      font-family: 'Poppins', sans-serif;-->
-<!--      font-weight: 700;-->
-<!--    }-->
-
-<!--    .container {-->
-<!--      width: 100%;-->
-<!--      max-width: 1200px;-->
-<!--      margin: 0 auto;-->
-<!--      padding: 0 15px;-->
-<!--    }-->
-
-<!--    /* Header Styles */-->
-<!--    header {-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--      box-shadow: var(&#45;&#45;shadow);-->
-<!--      position: sticky;-->
-<!--      top: 0;-->
-<!--      z-index: 100;-->
-<!--    }-->
-
-<!--    .header-container {-->
-<!--      display: flex;-->
-<!--      justify-content: space-between;-->
-<!--      align-items: center;-->
-<!--      padding: 15px 0;-->
-<!--    }-->
-
-<!--    .logo {-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--    }-->
-
-<!--    .logo-icon {-->
-<!--      width: 40px;-->
-<!--      height: 40px;-->
-<!--      background: linear-gradient(135deg, var(&#45;&#45;primary) 0%, var(&#45;&#45;secondary) 100%);-->
-<!--      border-radius: 8px;-->
-<!--      margin-right: 10px;-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--      justify-content: center;-->
-<!--      color: white;-->
-<!--      font-size: 20px;-->
-<!--    }-->
-
-<!--    .logo-text {-->
-<!--      font-size: 24px;-->
-<!--      font-weight: 700;-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .logo-text span {-->
-<!--      color: var(&#45;&#45;secondary);-->
-<!--    }-->
-
-<!--    nav ul {-->
-<!--      display: flex;-->
-<!--      list-style: none;-->
-<!--    }-->
-
-<!--    nav ul li {-->
-<!--      margin-left: 25px;-->
-<!--    }-->
-
-<!--    nav ul li a {-->
-<!--      text-decoration: none;-->
-<!--      color: var(&#45;&#45;dark-text);-->
-<!--      font-weight: 600;-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--    }-->
-
-<!--    nav ul li a:hover {-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .nav-buttons {-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--      gap: 15px;-->
-<!--    }-->
-
-<!--    .btn {-->
-<!--      display: inline-block;-->
-<!--      padding: 10px 20px;-->
-<!--      border-radius: 50px;-->
-<!--      text-decoration: none;-->
-<!--      font-weight: 600;-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--      cursor: pointer;-->
-<!--      border: none;-->
-<!--      font-size: 1rem;-->
-<!--    }-->
-
-<!--    .btn-outline {-->
-<!--      background-color: transparent;-->
-<!--      border: 2px solid var(&#45;&#45;primary);-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .btn-outline:hover {-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--      color: white;-->
-<!--    }-->
-
-<!--    .btn-primary {-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--      color: white;-->
-<!--    }-->
-
-<!--    .btn-primary:hover {-->
-<!--      background-color: #1e5a30;-->
-<!--      transform: translateY(-3px);-->
-<!--    }-->
-
-<!--    .mobile-menu-btn {-->
-<!--      display: none;-->
-<!--      font-size: 24px;-->
-<!--      cursor: pointer;-->
-<!--    }-->
-
-<!--    /* Hero Section */-->
-<!--    .hero {-->
-<!--      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1625246333197-44743bed8e73?ixlib=rb-4.0.3') no-repeat center center/cover;-->
-<!--      color: white;-->
-<!--      padding: 100px 0;-->
-<!--      text-align: center;-->
-<!--    }-->
-
-<!--    .hero-content {-->
-<!--      max-width: 800px;-->
-<!--      margin: 0 auto;-->
-<!--    }-->
-
-<!--    .hero h1 {-->
-<!--      font-size: 3rem;-->
-<!--      margin-bottom: 20px;-->
-<!--      line-height: 1.2;-->
-<!--    }-->
-
-<!--    .hero p {-->
-<!--      font-size: 1.2rem;-->
-<!--      margin-bottom: 30px;-->
-<!--      max-width: 600px;-->
-<!--      margin-left: auto;-->
-<!--      margin-right: auto;-->
-<!--    }-->
-
-<!--    .hero-buttons {-->
-<!--      display: flex;-->
-<!--      gap: 15px;-->
-<!--      justify-content: center;-->
-<!--      flex-wrap: wrap;-->
-<!--    }-->
-
-<!--    /* Features Section */-->
-<!--    .features {-->
-<!--      padding: 80px 0;-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--    }-->
-
-<!--    .section-title {-->
-<!--      text-align: center;-->
-<!--      margin-bottom: 50px;-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .section-subtitle {-->
-<!--      text-align: center;-->
-<!--      margin-bottom: 50px;-->
-<!--      color: var(&#45;&#45;gray);-->
-<!--      max-width: 800px;-->
-<!--      margin-left: auto;-->
-<!--      margin-right: auto;-->
-<!--    }-->
-
-<!--    .features-grid {-->
-<!--      display: grid;-->
-<!--      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));-->
-<!--      gap: 30px;-->
-<!--    }-->
-
-<!--    .feature-card {-->
-<!--      text-align: center;-->
-<!--      padding: 40px 30px;-->
-<!--      border-radius: 10px;-->
-<!--      background-color: var(&#45;&#45;light-bg);-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--      box-shadow: var(&#45;&#45;shadow);-->
-<!--    }-->
-
-<!--    .feature-card:hover {-->
-<!--      transform: translateY(-5px);-->
-<!--    }-->
-
-<!--    .feature-icon {-->
-<!--      font-size: 50px;-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--      margin-bottom: 20px;-->
-<!--    }-->
-
-<!--    .feature-card h3 {-->
-<!--      margin-bottom: 15px;-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    /* Sectors Section */-->
-<!--    .sectors {-->
-<!--      padding: 80px 0;-->
-<!--      background-color: var(&#45;&#45;light-bg);-->
-<!--    }-->
-
-<!--    .sectors-grid {-->
-<!--      display: grid;-->
-<!--      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));-->
-<!--      gap: 25px;-->
-<!--    }-->
-
-<!--    .sector-card {-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--      border-radius: 10px;-->
-<!--      overflow: hidden;-->
-<!--      box-shadow: var(&#45;&#45;shadow);-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--      text-align: center;-->
-<!--    }-->
-
-<!--    .sector-card:hover {-->
-<!--      transform: translateY(-5px);-->
-<!--    }-->
-
-<!--    .sector-icon {-->
-<!--      height: 150px;-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--      justify-content: center;-->
-<!--      color: white;-->
-<!--      font-size: 40px;-->
-<!--    }-->
-
-<!--    .sector-icon.farming {-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .sector-icon.housing {-->
-<!--      background-color: var(&#45;&#45;housing);-->
-<!--    }-->
-
-<!--    .sector-icon.healthcare {-->
-<!--      background-color: var(&#45;&#45;healthcare);-->
-<!--    }-->
-
-<!--    .sector-icon.cars {-->
-<!--      background-color: var(&#45;&#45;cars);-->
-<!--    }-->
-
-<!--    .sector-icon.food {-->
-<!--      background-color: var(&#45;&#45;food);-->
-<!--    }-->
-
-<!--    .sector-content {-->
-<!--      padding: 25px 20px;-->
-<!--    }-->
-
-<!--    .sector-content h3 {-->
-<!--      margin-bottom: 10px;-->
-<!--    }-->
-
-<!--    .sector-content p {-->
-<!--      color: var(&#45;&#45;gray);-->
-<!--      margin-bottom: 15px;-->
-<!--      font-size: 14px;-->
-<!--    }-->
-
-<!--    .status-badge {-->
-<!--      display: inline-block;-->
-<!--      padding: 5px 10px;-->
-<!--      border-radius: 20px;-->
-<!--      font-size: 12px;-->
-<!--      font-weight: 600;-->
-<!--    }-->
-
-<!--    .status-live {-->
-<!--      background-color: #e6f7ee;-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .status-coming {-->
-<!--      background-color: #fef5e7;-->
-<!--      color: var(&#45;&#45;food);-->
-<!--    }-->
-
-<!--    /* How It Works Section */-->
-<!--    .how-it-works {-->
-<!--      padding: 80px 0;-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--    }-->
-
-<!--    .steps {-->
-<!--      display: flex;-->
-<!--      justify-content: space-between;-->
-<!--      max-width: 900px;-->
-<!--      margin: 0 auto;-->
-<!--      flex-wrap: wrap;-->
-<!--    }-->
-
-<!--    .step {-->
-<!--      text-align: center;-->
-<!--      flex: 1;-->
-<!--      min-width: 250px;-->
-<!--      margin-bottom: 30px;-->
-<!--      position: relative;-->
-<!--    }-->
-
-<!--    .step-number {-->
-<!--      width: 50px;-->
-<!--      height: 50px;-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--      color: white;-->
-<!--      border-radius: 50%;-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--      justify-content: center;-->
-<!--      font-size: 24px;-->
-<!--      font-weight: bold;-->
-<!--      margin: 0 auto 20px;-->
-<!--    }-->
-
-<!--    .step:not(:last-child)::after {-->
-<!--      content: "";-->
-<!--      position: absolute;-->
-<!--      top: 25px;-->
-<!--      right: -10%;-->
-<!--      width: 20%;-->
-<!--      height: 2px;-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    /* Testimonials */-->
-<!--    .testimonials {-->
-<!--      padding: 80px 0;-->
-<!--      background-color: var(&#45;&#45;light-bg);-->
-<!--    }-->
-
-<!--    .testimonial-grid {-->
-<!--      display: grid;-->
-<!--      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));-->
-<!--      gap: 30px;-->
-<!--    }-->
-
-<!--    .testimonial-card {-->
-<!--      padding: 30px;-->
-<!--      border-radius: 10px;-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--      box-shadow: var(&#45;&#45;shadow);-->
-<!--    }-->
-
-<!--    .testimonial-text {-->
-<!--      font-style: italic;-->
-<!--      margin-bottom: 20px;-->
-<!--    }-->
-
-<!--    .testimonial-author {-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--    }-->
-
-<!--    .author-avatar {-->
-<!--      width: 50px;-->
-<!--      height: 50px;-->
-<!--      border-radius: 50%;-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--      justify-content: center;-->
-<!--      color: white;-->
-<!--      font-weight: bold;-->
-<!--      margin-right: 15px;-->
-<!--    }-->
-
-<!--    .avatar-farmer {-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--    }-->
-
-<!--    .avatar-builder {-->
-<!--      background-color: var(&#45;&#45;housing);-->
-<!--    }-->
-
-<!--    .avatar-health {-->
-<!--      background-color: var(&#45;&#45;healthcare);-->
-<!--    }-->
-
-<!--    /* CTA Section */-->
-<!--    .cta {-->
-<!--      padding: 80px 0;-->
-<!--      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-4.0.3') no-repeat center center/cover;-->
-<!--      color: white;-->
-<!--      text-align: center;-->
-<!--    }-->
-
-<!--    .cta-content {-->
-<!--      max-width: 800px;-->
-<!--      margin: 0 auto;-->
-<!--    }-->
-
-<!--    /* Login Modal */-->
-<!--    .modal {-->
-<!--      display: none;-->
-<!--      position: fixed;-->
-<!--      top: 0;-->
-<!--      left: 0;-->
-<!--      width: 100%;-->
-<!--      height: 100%;-->
-<!--      background-color: rgba(0, 0, 0, 0.7);-->
-<!--      z-index: 1000;-->
-<!--      align-items: center;-->
-<!--      justify-content: center;-->
-<!--    }-->
-
-<!--    .modal-content {-->
-<!--      background-color: var(&#45;&#45;white);-->
-<!--      padding: 40px;-->
-<!--      border-radius: 10px;-->
-<!--      width: 100%;-->
-<!--      max-width: 450px;-->
-<!--      position: relative;-->
-<!--    }-->
-
-<!--    .close-modal {-->
-<!--      position: absolute;-->
-<!--      top: 15px;-->
-<!--      right: 15px;-->
-<!--      font-size: 24px;-->
-<!--      cursor: pointer;-->
-<!--      color: var(&#45;&#45;gray);-->
-<!--    }-->
-
-<!--    .form-group {-->
-<!--      margin-bottom: 20px;-->
-<!--    }-->
-
-<!--    .form-group label {-->
-<!--      display: block;-->
-<!--      margin-bottom: 8px;-->
-<!--      font-weight: 600;-->
-<!--    }-->
-
-<!--    .form-group input {-->
-<!--      width: 100%;-->
-<!--      padding: 12px 15px;-->
-<!--      border: 1px solid var(&#45;&#45;light-gray);-->
-<!--      border-radius: 5px;-->
-<!--      font-size: 16px;-->
-<!--    }-->
-
-<!--    .form-options {-->
-<!--      display: flex;-->
-<!--      justify-content: space-between;-->
-<!--      align-items: center;-->
-<!--      margin-bottom: 20px;-->
-<!--    }-->
-
-<!--    .remember-me {-->
-<!--      display: flex;-->
-<!--      align-items: center;-->
-<!--    }-->
-
-<!--    .remember-me input {-->
-<!--      margin-right: 8px;-->
-<!--    }-->
-
-<!--    .forgot-password {-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--      text-decoration: none;-->
-<!--    }-->
-
-<!--    .submit-btn {-->
-<!--      width: 100%;-->
-<!--      padding: 12px;-->
-<!--      background-color: var(&#45;&#45;primary);-->
-<!--      color: white;-->
-<!--      border: none;-->
-<!--      border-radius: 5px;-->
-<!--      font-size: 16px;-->
-<!--      font-weight: 600;-->
-<!--      cursor: pointer;-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--    }-->
-
-<!--    .submit-btn:hover {-->
-<!--      background-color: #1e5a30;-->
-<!--    }-->
-
-<!--    .auth-switch {-->
-<!--      text-align: center;-->
-<!--      margin-top: 20px;-->
-<!--    }-->
-
-<!--    .auth-switch a {-->
-<!--      color: var(&#45;&#45;primary);-->
-<!--      text-decoration: none;-->
-<!--      font-weight: 600;-->
-<!--    }-->
-
-<!--    /* Error and Success Messages */-->
-<!--    .message {-->
-<!--      padding: 12px;-->
-<!--      border-radius: 5px;-->
-<!--      margin-bottom: 20px;-->
-<!--      text-align: center;-->
-<!--      display: none;-->
-<!--    }-->
-
-<!--    .error-message {-->
-<!--      background-color: #ffebee;-->
-<!--      color: #d32f2f;-->
-<!--      border: 1px solid #ffcdd2;-->
-<!--    }-->
-
-<!--    .success-message {-->
-<!--      background-color: #e8f5e9;-->
-<!--      color: #2e7d32;-->
-<!--      border: 1px solid #c8e6c9;-->
-<!--    }-->
-
-<!--    .visible {-->
-<!--      display: block;-->
-<!--    }-->
-
-<!--    /* Footer */-->
-<!--    footer {-->
-<!--      background-color: var(&#45;&#45;dark-text);-->
-<!--      color: white;-->
-<!--      padding: 60px 0 30px;-->
-<!--    }-->
-
-<!--    .footer-grid {-->
-<!--      display: grid;-->
-<!--      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));-->
-<!--      gap: 30px;-->
-<!--      margin-bottom: 40px;-->
-<!--    }-->
-
-<!--    .footer-col h3 {-->
-<!--      color: var(&#45;&#45;secondary);-->
-<!--      margin-bottom: 20px;-->
-<!--      font-size: 18px;-->
-<!--    }-->
-
-<!--    .footer-col ul {-->
-<!--      list-style: none;-->
-<!--    }-->
-
-<!--    .footer-col ul li {-->
-<!--      margin-bottom: 10px;-->
-<!--    }-->
-
-<!--    .footer-col ul li a {-->
-<!--      color: var(&#45;&#45;light-gray);-->
-<!--      text-decoration: none;-->
-<!--      transition: var(&#45;&#45;transition);-->
-<!--    }-->
-
-<!--    .footer-col ul li a:hover {-->
-<!--      color: var(&#45;&#45;secondary);-->
-<!--    }-->
-
-<!--    .footer-bottom {-->
-<!--      text-align: center;-->
-<!--      padding-top: 30px;-->
-<!--      border-top: 1px solid rgba(255, 255, 255, 0.1);-->
-<!--    }-->
-
-<!--    /* Responsive Design */-->
-<!--    @media (max-width: 992px) {-->
-<!--      .hero h1 {-->
-<!--        font-size: 2.5rem;-->
-<!--      }-->
-
-<!--      .step:not(:last-child)::after {-->
-<!--        display: none;-->
-<!--      }-->
-<!--    }-->
-
-<!--    @media (max-width: 768px) {-->
-<!--      .mobile-menu-btn {-->
-<!--        display: block;-->
-<!--      }-->
-
-<!--      nav {-->
-<!--        position: fixed;-->
-<!--        top: 70px;-->
-<!--        left: -100%;-->
-<!--        width: 80%;-->
-<!--        height: calc(100vh - 70px);-->
-<!--        background-color: var(&#45;&#45;white);-->
-<!--        box-shadow: var(&#45;&#45;shadow);-->
-<!--        transition: var(&#45;&#45;transition);-->
-<!--        z-index: 99;-->
-<!--        padding: 20px;-->
-<!--      }-->
-
-<!--      nav.active {-->
-<!--        left: 0;-->
-<!--      }-->
-
-<!--      nav ul {-->
-<!--        flex-direction: column;-->
-<!--      }-->
-
-<!--      nav ul li {-->
-<!--        margin: 15px 0;-->
-<!--      }-->
-
-<!--      .nav-buttons {-->
-<!--        display: none;-->
-<!--      }-->
-
-<!--      .mobile-nav-buttons {-->
-<!--        display: flex;-->
-<!--        flex-direction: column;-->
-<!--        gap: 15px;-->
-<!--        margin-top: 30px;-->
-<!--      }-->
-
-<!--      .hero h1 {-->
-<!--        font-size: 2rem;-->
-<!--      }-->
-
-<!--      .hero p {-->
-<!--        font-size: 1rem;-->
-<!--      }-->
-
-<!--      .hero-buttons {-->
-<!--        flex-direction: column;-->
-<!--        align-items: center;-->
-<!--      }-->
-<!--    }-->
-
-<!--    @media (max-width: 576px) {-->
-<!--      .hero {-->
-<!--        padding: 60px 0;-->
-<!--      }-->
-
-<!--      .hero h1 {-->
-<!--        font-size: 1.8rem;-->
-<!--      }-->
-
-<!--      .section-title {-->
-<!--        font-size: 1.8rem;-->
-<!--      }-->
-
-<!--      .modal-content {-->
-<!--        padding: 30px 20px;-->
-<!--      }-->
-<!--    }-->
-<!--  </style>-->
-<!--</head>-->
-<!--<body>-->
-<!--&lt;!&ndash; Header &ndash;&gt;-->
-<!--<header>-->
-<!--  <div class="container header-container">-->
-<!--    <div class="logo">-->
-<!--      <div class="logo-icon">-->
-<!--        <i class="fas fa-leaf"></i>-->
-<!--      </div>-->
-<!--      <div class="logo-text">The <span>Pula</span> Market</div>-->
-<!--    </div>-->
-
-<!--    <div class="mobile-menu-btn">-->
-<!--      <i class="fas fa-bars"></i>-->
-<!--    </div>-->
-
-<!--    <nav>-->
-<!--      <ul>-->
-<!--        <li><a href="#">Home</a></li>-->
-<!--        <li><a href="#">How It Works</a></li>-->
-<!--        <li><a href="#">For Sellers</a></li>-->
-<!--        <li><a href="#">For Buyers</a></li>-->
-<!--        <li><a href="#">Contact</a></li>-->
-<!--      </ul>-->
-
-<!--    </nav>-->
-
-<!--    <div class="nav-buttons">-->
-<!--      <a href="#" class="btn btn-outline" onclick="openLoginModal()">Log In</a>-->
-<!--      <a href="#" class="btn btn-primary" onclick="openLoginModal()">Sign Up</a>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</header>-->
-
-<!--&lt;!&ndash; Hero Section &ndash;&gt;-->
-<!--<section class="hero">-->
-<!--  <div class="container hero-content">-->
-<!--    <h1>Botswana's Complete Online Marketplace</h1>-->
-<!--    <p>The Pula Market connects buyers and sellers across multiple sectors - from fresh farm produce to cars, housing, healthcare, and food services.</p>-->
-<!--    <div class="hero-buttons">-->
-<!--      <a href="#" class="btn btn-primary" onclick="openLoginModal()">Join Now</a>-->
-<!--      <a href="#" class="btn btn-outline">Explore Marketplace</a>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; Sectors Section &ndash;&gt;-->
-<!--<section class="sectors">-->
-<!--  <div class="container">-->
-<!--    <h2 class="section-title">Our Marketplace Sectors</h2>-->
-<!--    <p class="section-subtitle">The Pula Market serves multiple sectors of Botswana's economy, with more coming soon as we expand our platform.</p>-->
-
-<!--    <div class="sectors-grid">-->
-<!--      <div class="sector-card">-->
-<!--        <div class="sector-icon farming">-->
-<!--          <i class="fas fa-seedling"></i>-->
-<!--        </div>-->
-<!--        <div class="sector-content">-->
-<!--          <h3>Local Farming</h3>-->
-<!--          <p>Buy fresh produce directly from local farmers. Vegetables, fruits, grains, and more.</p>-->
-<!--          <span class="status-badge status-live">Live Now</span>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="sector-card">-->
-<!--        <div class="sector-icon housing">-->
-<!--          <i class="fas fa-home"></i>-->
-<!--        </div>-->
-<!--        <div class="sector-content">-->
-<!--          <h3>Building & Housing</h3>-->
-<!--          <p>Find construction materials, home decor, furniture, and property listings.</p>-->
-<!--          <span class="status-badge status-live">Live Now</span>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="sector-card">-->
-<!--        <div class="sector-icon healthcare">-->
-<!--          <i class="fas fa-heartbeat"></i>-->
-<!--        </div>-->
-<!--        <div class="sector-content">-->
-<!--          <h3>Healthcare</h3>-->
-<!--          <p>Book online consultations, find medical supplies, and connect with healthcare providers.</p>-->
-<!--          <span class="status-badge status-coming">Coming Soon</span>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="sector-card">-->
-<!--        <div class="sector-icon cars">-->
-<!--          <i class="fas fa-car"></i>-->
-<!--        </div>-->
-<!--        <div class="sector-content">-->
-<!--          <h3>Car Sales</h3>-->
-<!--          <p>Buy and sell vehicles with verified sellers and transparent pricing.</p>-->
-<!--          <span class="status-badge status-coming">Coming Soon</span>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="sector-card">-->
-<!--        <div class="sector-icon food">-->
-<!--          <i class="fas fa-utensils"></i>-->
-<!--        </div>-->
-<!--        <div class="sector-content">-->
-<!--          <h3>Food Services</h3>-->
-<!--          <p>Order from local restaurants, caterers, and food vendors across Botswana.</p>-->
-<!--          <span class="status-badge status-coming">Coming Soon</span>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; Features Section &ndash;&gt;-->
-<!--<section class="features">-->
-<!--  <div class="container">-->
-<!--    <h2 class="section-title">Why Choose The Pula Market</h2>-->
-<!--    <p class="section-subtitle">Our platform offers unique benefits for both buyers and sellers across all sectors</p>-->
-
-<!--    <div class="features-grid">-->
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-users"></i>-->
-<!--        </div>-->
-<!--        <h3>Wide Audience Reach</h3>-->
-<!--        <p>Connect with customers and suppliers across Botswana without geographical limitations.</p>-->
-<!--      </div>-->
-
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-money-bill-wave"></i>-->
-<!--        </div>-->
-<!--        <h3>Better Value</h3>-->
-<!--        <p>Eliminate middlemen and get better prices whether you're buying or selling.</p>-->
-<!--      </div>-->
-
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-mobile-alt"></i>-->
-<!--        </div>-->
-<!--        <h3>Easy To Use</h3>-->
-<!--        <p>Our platform is designed for simplicity with mobile-first approach for all users.</p>-->
-<!--      </div>-->
-
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-lock"></i>-->
-<!--        </div>-->
-<!--        <h3>Secure Transactions</h3>-->
-<!--        <p>Integrated mobile money payments with Orange Money and MyZaka for safe transactions.</p>-->
-<!--      </div>-->
-
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-truck"></i>-->
-<!--        </div>-->
-<!--        <h3>Logistics Support</h3>-->
-<!--        <p>We help coordinate delivery and logistics for physical products across sectors.</p>-->
-<!--      </div>-->
-
-<!--      <div class="feature-card">-->
-<!--        <div class="feature-icon">-->
-<!--          <i class="fas fa-headset"></i>-->
-<!--        </div>-->
-<!--        <h3>Dedicated Support</h3>-->
-<!--        <p>Our team provides assistance to both buyers and sellers for seamless transactions.</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; How It Works Section &ndash;&gt;-->
-<!--<section class="how-it-works">-->
-<!--  <div class="container">-->
-<!--    <h2 class="section-title">How It Works</h2>-->
-
-<!--    <div class="steps">-->
-<!--      <div class="step">-->
-<!--        <div class="step-number">1</div>-->
-<!--        <h3>Create Your Account</h3>-->
-<!--        <p>Sign up as a buyer or seller and complete your profile with relevant information.</p>-->
-<!--      </div>-->
-
-<!--      <div class="step">-->
-<!--        <div class="step-number">2</div>-->
-<!--        <h3>Browse or List Items</h3>-->
-<!--        <p>Explore products/services or list your own offerings in relevant categories.</p>-->
-<!--      </div>-->
-
-<!--      <div class="step">-->
-<!--        <div class="step-number">3</div>-->
-<!--        <h3>Connect & Transact</h3>-->
-<!--        <p>Communicate with buyers/sellers, agree on terms, and complete transactions securely.</p>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; Testimonials &ndash;&gt;-->
-<!--<section class="testimonials">-->
-<!--  <div class="container">-->
-<!--    <h2 class="section-title">Success Stories</h2>-->
-
-<!--    <div class="testimonial-grid">-->
-<!--      <div class="testimonial-card">-->
-<!--        <p class="testimonial-text">"Since joining The Pula Market, I've doubled my customer base and increased my profits by 40%. Now I can focus on farming while the platform handles connecting me with buyers."</p>-->
-<!--        <div class="testimonial-author">-->
-<!--          <div class="author-avatar avatar-farmer">KM</div>-->
-<!--          <div>-->
-<!--            <h4>Kabelo Moeng</h4>-->
-<!--            <p>Vegetable Farmer, Gaborone</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="testimonial-card">-->
-<!--        <p class="testimonial-text">"As a construction materials supplier, I'm excited about the upcoming Housing sector. The Pula Market will help me reach builders across Botswana who need quality materials."</p>-->
-<!--        <div class="testimonial-author">-->
-<!--          <div class="author-avatar avatar-builder">TM</div>-->
-<!--          <div>-->
-<!--            <h4>Tshepo Mothibi</h4>-->
-<!--            <p>Building Materials Supplier, Francistown</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      <div class="testimonial-card">-->
-<!--        <p class="testimonial-text">"The healthcare sector can't come soon enough! This platform will revolutionize how patients access medical services in remote areas of Botswana."</p>-->
-<!--        <div class="testimonial-author">-->
-<!--          <div class="author-avatar avatar-health">DM</div>-->
-<!--          <div>-->
-<!--            <h4>Dr. Amantle Dintwa</h4>-->
-<!--            <p>Medical Practitioner, Maun</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; CTA Section &ndash;&gt;-->
-<!--<section class="cta">-->
-<!--  <div class="container cta-content">-->
-<!--    <h2>Ready to join Botswana's digital marketplace revolution?</h2>-->
-<!--    <p>Whether you're a buyer or seller, The Pula Market offers opportunities across multiple sectors.</p>-->
-<!--    <a href="#" class="btn btn-primary" onclick="openLoginModal()">Get Started Today</a>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash; Login Modal &ndash;&gt;-->
-<!--<div class="modal" id="loginModal">-->
-<!--  <div class="modal-content">-->
-<!--    <span class="close-modal" onclick="closeLoginModal()">&times;</span>-->
-<!--    <h2 style="text-align: center; margin-bottom: 30px; color: var(&#45;&#45;primary);">Welcome to The Pula Market</h2>-->
-
-<!--    &lt;!&ndash; Error and Success Messages &ndash;&gt;-->
-<!--    <div id="errorMessage" class="message error-message">-->
-<!--      Invalid email or password. Please try again.-->
-<!--    </div>-->
-
-<!--    <div id="successMessage" class="message success-message">-->
-<!--      Login successful! Redirecting...-->
-<!--    </div>-->
-
-<!--    <div class="form-group">-->
-<!--      <label for="email">Email Address</label>-->
-<!--      <input type="email" id="email" placeholder="Enter your email">-->
-<!--    </div>-->
-
-<!--    <div class="form-group">-->
-<!--      <label for="password">Password</label>-->
-<!--      <input type="password" id="password" placeholder="Enter your password">-->
-<!--    </div>-->
-
-<!--    <div class="form-options">-->
-<!--      <div class="remember-me">-->
-<!--        <input type="checkbox" id="remember">-->
-<!--        <label for="remember">Remember me</label>-->
-<!--      </div>-->
-<!--      <a href="#" class="forgot-password">Forgot password?</a>-->
-<!--    </div>-->
-
-<!--    <button class="submit-btn" onclick="login()">Log In</button>-->
-
-<!--    <div class="auth-switch">-->
-<!--      <p>Don't have an account? <a href="#" onclick="switchToSignup()">Sign up</a></p>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
-
-<!--&lt;!&ndash; Footer &ndash;&gt;-->
-<!--<footer>-->
-<!--  <div class="container">-->
-<!--    <div class="footer-grid">-->
-<!--      <div class="footer-col">-->
-<!--        <h3>The Pula Market</h3>-->
-<!--        <p>Botswana's premier multi-sector marketplace connecting buyers and sellers across the nation.</p>-->
-<!--      </div>-->
-
-<!--      <div class="footer-col">-->
-<!--        <h3>Marketplace Sectors</h3>-->
-<!--        <ul>-->
-<!--          <li><a href="#">Local Farming</a></li>-->
-<!--          <li><a href="#">Building & Housing</a></li>-->
-<!--          <li><a href="#">Healthcare</a></li>-->
-<!--          <li><a href="#">Car Sales</a></li>-->
-<!--          <li><a href="#">Food Services</a></li>-->
-<!--        </ul>-->
-<!--      </div>-->
-
-<!--      <div class="footer-col">-->
-<!--        <h3>Quick Links</h3>-->
-<!--        <ul>-->
-<!--          <li><a href="#">About Us</a></li>-->
-<!--          <li><a href="#">For Sellers</a></li>-->
-<!--          <li><a href="#">For Buyers</a></li>-->
-<!--          <li><a href="#">Contact Us</a></li>-->
-<!--        </ul>-->
-<!--      </div>-->
-
-<!--      <div class="footer-col">-->
-<!--        <h3>Contact Info</h3>-->
-<!--        <ul>-->
-<!--          <li><i class="fas fa-phone"></i> +267 75 397 182</li>-->
-<!--          <li><i class="fas fa-envelope"></i> info@pulamarket.bw</li>-->
-<!--          <li><i class="fas fa-map-marker-alt"></i> Gaborone, Botswana</li>-->
-<!--        </ul>-->
-<!--      </div>-->
-<!--    </div>-->
-
-<!--    <div class="footer-bottom">-->
-<!--      <p>&copy; 2023 The Pula Market. All rights reserved.</p>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</footer>-->
-
-<!--<script>-->
-<!--  // Mobile menu toggle-->
-<!--  document.querySelector('.mobile-menu-btn').addEventListener('click', function() {-->
-<!--    document.querySelector('nav').classList.toggle('active');-->
-<!--  });-->
-
-<!--  // Login modal functions-->
-<!--  function openLoginModal() {-->
-<!--    document.getElementById('loginModal').style.display = 'flex';-->
-<!--    // Clear any previous messages-->
-<!--    document.getElementById('errorMessage').classList.remove('visible');-->
-<!--    document.getElementById('successMessage').classList.remove('visible');-->
-<!--    // Clear form fields-->
-<!--    document.getElementById('email').value = '';-->
-<!--    document.getElementById('password').value = '';-->
-<!--  }-->
-
-<!--  function closeLoginModal() {-->
-<!--    document.getElementById('loginModal').style.display = 'none';-->
-<!--  }-->
-
-<!--  // function farmerDashboard() {-->
-<!--  //   window.location.href = "dashboards/farmers.html";-->
-<!--  // }-->
-<!--  //-->
-<!--  // function builderDashboard() {-->
-<!--  //   window.location.href = "dashboards/seller/HousingAndBuilding.html";-->
-<!--  // }-->
-<!--  function switchToSignup() {-->
-<!--    // In a real application, this would switch to a signup form-->
-<!--    alert('Sign up form would appear here. For demonstration, use email: farmer@example.com, password: password');-->
-<!--  }-->
-
-<!--  // Simple login function-->
-<!--  function login() {-->
-<!--    const email = document.getElementById('email').value;-->
-<!--    const password = document.getElementById('password').value;-->
-<!--    const errorMessage = document.getElementById('errorMessage');-->
-<!--    const successMessage = document.getElementById('successMessage');-->
-
-<!--    // Hide messages initially-->
-<!--    errorMessage.classList.remove('visible');-->
-<!--    successMessage.classList.remove('visible');-->
-
-<!--    // Simple validation for demo purposes-->
-<!--    if (email === 'farmer@example.com' && password === 'password') {-->
-<!--      // Show success message-->
-<!--      successMessage.classList.add('visible');-->
-
-<!--      // Simulate redirect to farmer dashboard-->
-<!--      setTimeout(() => {-->
-<!--        alert('Login successful! Redirecting to dashboard...');-->
-<!--        window.location.href = '/dashboards/farmers.html';-->
-<!--        closeLoginModal();-->
-<!--      }, 1500);-->
-<!--    }-->
-<!--    else if (email === 'housing@example.com' && password === 'password') {-->
-<!--      // Show success message-->
-<!--      successMessage.classList.add('visible');-->
-
-<!--      // Simulate redirect to Building and Housing-->
-<!--      setTimeout(() => {-->
-<!--        alert('Login successful! Redirecting to Building and Housing dashboard...');-->
-<!--        window.location.href = 'dashboards/seller/BuildingAndHousing.html';-->
-<!--        closeLoginModal();-->
-<!--      }, 1500);-->
-<!--    }-->
-<!--    else {-->
-<!--      // Show error message-->
-<!--      errorMessage.classList.add('visible');-->
-<!--    }-->
-<!--  }-->
-
-<!--  // Close modal if clicked outside-->
-<!--  window.addEventListener('click', function(event) {-->
-<!--    const modal = document.getElementById('loginModal');-->
-<!--    if (event.target === modal) {-->
-<!--      closeLoginModal();-->
-<!--    }-->
-<!--  });-->
-<!--</script>-->
-<!--</body>-->
-<!--</html>-->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1579,7 +466,7 @@
       padding: 40px;
       border-radius: 10px;
       width: 100%;
-      max-width: 450px;
+      max-width: 600px;
       position: relative;
     }
 
@@ -1816,6 +703,314 @@
     /* Additional styles for signup form */
     .signup-form {
       display: none;
+    }
+
+    /* Enhanced Signup Form Styles - Green Color Scheme */
+
+    /* Password visibility toggle buttons */
+    #signupForm .form-group {
+      position: relative;
+    }
+
+    #toggleSignupPassword,
+    #toggleConfirmPassword {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: var(--gray);
+      font-size: 16px;
+      padding: 0;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+
+    #toggleSignupPassword:hover,
+    #toggleConfirmPassword:hover {
+      color: var(--primary);
+    }
+
+    /* Password strength indicator */
+    #passwordStrength {
+      height: 4px;
+      margin-top: 5px;
+      border-radius: 2px;
+      background-color: var(--light-gray);
+      transition: all 0.3s ease;
+      width: 0%;
+    }
+
+    #passwordFeedback,
+    #confirmPasswordFeedback {
+      font-size: 12px;
+      margin-top: 5px;
+      color: var(--gray);
+      transition: color 0.3s ease;
+    }
+
+    /* Role selection buttons */
+    .role-selector {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(42, 109, 63, 0.1);
+    }
+
+    .role-btn {
+      flex: 1;
+      padding: 12px 20px;
+      border: none;
+      background-color: var(--light-bg);
+      color: var(--gray);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: inherit;
+      font-size: 16px;
+    }
+
+    .role-btn:first-child {
+      border-right: 1px solid var(--light-gray);
+    }
+
+    .role-btn.active,
+    .role-btn:hover {
+      background-color: var(--primary);
+      color: white;
+    }
+
+    .role-btn i {
+      margin-right: 8px;
+    }
+
+    /* Module selection dropdown */
+    #selectedModule {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid var(--light-gray);
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: white;
+      color: var(--dark-text);
+      transition: border-color 0.3s ease;
+    }
+
+    #selectedModule:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(42, 109, 63, 0.1);
+    }
+
+    /* Selection summary box */
+    .selection-summary {
+      background-color: var(--light-bg);
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+      border-left: 4px solid var(--primary);
+    }
+
+    .selection-summary h5 {
+      color: var(--primary);
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .selection-summary p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--dark-text);
+    }
+
+    #roleDisplay,
+    #moduleDisplay {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    /* Two column layout for signup */
+    .signup-columns {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .signup-column {
+      flex: 1;
+    }
+
+    .signup-column h4 {
+      margin-bottom: 20px;
+      color: var(--primary);
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* Password input adjustments for toggle buttons */
+    #signupPassword,
+    #confirmPassword {
+      padding-right: 45px !important;
+    }
+
+    /* Form validation states */
+    .form-group input.valid {
+      border-color: var(--primary);
+    }
+
+    .form-group input.invalid {
+      border-color: var(--accent);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .signup-columns {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .role-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+
+      .selection-summary {
+        padding: 12px;
+      }
+
+      .selection-summary h5 {
+        font-size: 13px;
+      }
+
+      .selection-summary p {
+        font-size: 13px;
+      }
+    }
+
+    /* Enhanced submit button */
+    .submit-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .submit-btn:hover {
+      background-color: #1e5a30;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(42, 109, 63, 0.3);
+    }
+
+    .submit-btn:active {
+      transform: translateY(0);
+    }
+
+    /* Success/Error message enhancements */
+    .message.visible {
+      display: block;
+      animation: slideDown 0.3s ease-out;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Focus states for accessibility */
+    .role-btn:focus {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
+    #selectedModule:focus,
+    #signupPassword:focus,
+    #confirmPassword:focus,
+    #fullName:focus,
+    #signupEmail:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(42, 109, 63, 0.2);
+    }
+
+    /* Loading state for submit button */
+    .submit-btn.loading {
+      position: relative;
+      color: transparent;
+    }
+
+    .submit-btn.loading::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 50%;
+      left: 50%;
+      margin-left: -10px;
+      margin-top: -10px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
+
+
+    .signup-columns {
+      display: flex;
+      gap: 25px; /* Increased gap */
+      margin-bottom: 20px;
+    }
+
+    .signup-column {
+      flex: 1;
+    }
+
+
+    /* Responsive adjustments for the wider form */
+    @media (max-width: 768px) {
+      .modal-content {
+        max-width: 90%;
+        padding: 30px 20px;
+      }
+
+      .signup-columns {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .modal-content {
+        max-width: 95%;
+        padding: 20px 15px;
+      }
     }
   </style>
 </head>
@@ -2110,10 +1305,66 @@
       </div>
     </div>
 
-    <!-- Signup Form -->
+<!--    &lt;!&ndash; Signup Form &ndash;&gt;-->
+<!--    <div id="signupForm" class="signup-form">-->
+<!--      <h2 style="text-align: center; margin-bottom: 30px; color: var(&#45;&#45;primary);">Create Account</h2>-->
+
+<!--      <div id="signupErrorMessage" class="message error-message">-->
+<!--        Please fill all fields correctly.-->
+<!--      </div>-->
+
+<!--      <div id="signupSuccessMessage" class="message success-message">-->
+<!--        Account created successfully! You can now login.-->
+<!--      </div>-->
+
+<!--      <div class="form-group">-->
+<!--        <label for="fullName">Full Name</label>-->
+<!--        <input type="text" id="fullName" placeholder="Enter your full name">-->
+<!--      </div>-->
+
+<!--      <div class="form-group">-->
+<!--        <label for="signupEmail">Email Address</label>-->
+<!--        <input type="email" id="signupEmail" placeholder="Enter your email">-->
+<!--      </div>-->
+
+<!--      <div class="form-group">-->
+<!--        <label for="signupPassword">Password</label>-->
+<!--        <input type="password" id="signupPassword" placeholder="Create a password">-->
+<!--      </div>-->
+
+<!--      <div class="form-group">-->
+<!--        <label for="confirmPassword">Confirm Password</label>-->
+<!--        <input type="password" id="confirmPassword" placeholder="Confirm your password">-->
+<!--      </div>-->
+
+<!--      <div class="form-group">-->
+<!--        <label for="userType">I want to:</label>-->
+<!--        <select id="userType" class="form-control">-->
+<!--          <option value="buyer">Buy products/services</option>-->
+<!--          <option value="seller">Sell products/services</option>-->
+<!--        </select>-->
+<!--      </div>-->
+
+<!--      <div class="form-options">-->
+<!--        <div class="remember-me">-->
+<!--          <input type="checkbox" id="terms">-->
+<!--          <label for="terms">I agree to the Terms & Conditions</label>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <button class="submit-btn" onclick="signup()">Create Account</button>-->
+
+<!--      <div class="auth-switch">-->
+<!--        <p>Already have an account? <a href="#" onclick="switchToLogin()">Log in</a></p>-->
+<!--      </div>-->
+<!--    </div>-->
+
+
+    <!-- Enhanced Signup Form -->
     <div id="signupForm" class="signup-form">
       <h2 style="text-align: center; margin-bottom: 30px; color: var(--primary);">Create Account</h2>
 
+      <!-- Error and Success Messages -->
       <div id="signupErrorMessage" class="message error-message">
         Please fill all fields correctly.
       </div>
@@ -2122,42 +1373,100 @@
         Account created successfully! You can now login.
       </div>
 
-      <div class="form-group">
-        <label for="fullName">Full Name</label>
-        <input type="text" id="fullName" placeholder="Enter your full name">
+      <div style="display: flex; gap: 20px;">
+        <!-- Left Column - Form Fields -->
+        <div style="flex: 1;">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="signupEmail">Email Address</label>
+            <input type="email" id="signupEmail" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="signupPassword">Password</label>
+            <div style="position: relative;">
+              <input type="password" id="signupPassword" placeholder="Create a password" required style="padding-right: 45px;">
+              <button type="button" id="toggleSignupPassword"
+                      style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+                         border: none; background: none; cursor: pointer; color: var(--gray);">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div id="passwordStrength" style="height: 4px; margin-top: 5px; border-radius: 2px; background-color: #e0e0e0; transition: all 0.3s ease;"></div>
+            <div id="passwordFeedback" style="font-size: 12px; margin-top: 5px; color: var(--gray);"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <div style="position: relative;">
+              <input type="password" id="confirmPassword" placeholder="Confirm your password" required style="padding-right: 45px;">
+              <button type="button" id="toggleConfirmPassword"
+                      style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+                         border: none; background: none; cursor: pointer; color: var(--gray);">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+            <div id="confirmPasswordFeedback" style="font-size: 12px; margin-top: 5px; color: var(--gray);"></div>
+          </div>
+        </div>
+
+        <!-- Right Column - Role and Module Selection -->
+        <div style="flex: 1;">
+          <h4 style="margin-bottom: 20px; color: var(--primary);">Select your role and module:</h4>
+
+          <!-- Role Selection -->
+          <div style="display: flex; margin-bottom: 20px; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+            <button type="button" id="buyerBtn" class="role-btn active"
+                    style="flex: 1; padding: 12px 20px; border: none; background-color: var(--primary);
+                       color: white; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+              <i class="fas fa-shopping-cart" style="margin-right: 8px;"></i>Buyer
+            </button>
+            <button type="button" id="sellerBtn" class="role-btn"
+                    style="flex: 1; padding: 12px 20px; border: none; background-color: #f8f9fa;
+                       color: var(--gray); font-weight: 600; cursor: pointer; transition: all 0.3s;">
+              <i class="fas fa-store" style="margin-right: 8px;"></i>Seller
+            </button>
+          </div>
+
+          <!-- Module Selection -->
+          <div class="form-group">
+            <label for="selectedModule">Choose Module:</label>
+            <select id="selectedModule" style="width: 100%; padding: 12px 15px; border: 1px solid var(--light-gray);
+                                           border-radius: 5px; font-size: 16px; background-color: white;">
+              <option value="localFarming">Local Farming</option>
+              <option value="buildingHousing">Building and Housing</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="carSales">Car Sales</option>
+              <option value="foodServices">Food Services</option>
+            </select>
+          </div>
+
+          <!-- Selection Summary -->
+          <div style="background-color: var(--light-bg); padding: 15px; border-radius: 8px; margin-top: 15px;">
+            <h5 style="color: var(--primary); margin-bottom: 10px;">
+              <i class="fas fa-info-circle" style="margin-right: 8px;"></i>Your selection:
+            </h5>
+            <p style="margin: 0; font-size: 14px; color: var(--dark-text);">
+              I want to <span id="roleDisplay" style="font-weight: 600; color: var(--primary);">buy</span>
+              in the <span id="moduleDisplay" style="font-weight: 600; color: var(--primary);">Local Farming</span> module
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="signupEmail">Email Address</label>
-        <input type="email" id="signupEmail" placeholder="Enter your email">
-      </div>
-
-      <div class="form-group">
-        <label for="signupPassword">Password</label>
-        <input type="password" id="signupPassword" placeholder="Create a password">
-      </div>
-
-      <div class="form-group">
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="password" id="confirmPassword" placeholder="Confirm your password">
-      </div>
-
-      <div class="form-group">
-        <label for="userType">I want to:</label>
-        <select id="userType" class="form-control">
-          <option value="buyer">Buy products/services</option>
-          <option value="seller">Sell products/services</option>
-        </select>
-      </div>
-
-      <div class="form-options">
+      <!-- Terms and Submit -->
+      <div class="form-options" style="margin-top: 20px;">
         <div class="remember-me">
-          <input type="checkbox" id="terms">
+          <input type="checkbox" id="terms" required>
           <label for="terms">I agree to the Terms & Conditions</label>
         </div>
       </div>
 
-      <button class="submit-btn" onclick="signup()">Create Account</button>
+      <button class="submit-btn" onclick="enhancedSignup()">Create Account</button>
 
       <div class="auth-switch">
         <p>Already have an account? <a href="#" onclick="switchToLogin()">Log in</a></p>
@@ -2219,6 +1528,219 @@
   document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
     document.querySelector('nav').classList.toggle('active');
   });
+
+  // Enhanced signup functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const buyerBtn = document.getElementById('buyerBtn');
+    const sellerBtn = document.getElementById('sellerBtn');
+    const selectedModule = document.getElementById('selectedModule');
+    const roleDisplay = document.getElementById('roleDisplay');
+    const moduleDisplay = document.getElementById('moduleDisplay');
+    const passwordInput = document.getElementById('signupPassword');
+    const confirmPasswordInput = document.getElementById('confirmPassword');
+    const passwordStrength = document.getElementById('passwordStrength');
+    const passwordFeedback = document.getElementById('passwordFeedback');
+    const confirmPasswordFeedback = document.getElementById('confirmPasswordFeedback');
+    const toggleSignupPassword = document.getElementById('toggleSignupPassword');
+    const toggleConfirmPassword = document.getElementById('toggleConfirmPassword');
+
+    let selectedRole = 'buyer';
+
+    // Password visibility toggles
+    if (toggleSignupPassword) {
+      toggleSignupPassword.addEventListener('click', function() {
+        togglePasswordVisibility(passwordInput, this);
+      });
+    }
+
+    if (toggleConfirmPassword) {
+      toggleConfirmPassword.addEventListener('click', function() {
+        togglePasswordVisibility(confirmPasswordInput, this);
+      });
+    }
+
+    function togglePasswordVisibility(input, button) {
+      if (input.type === 'password') {
+        input.type = 'text';
+        button.innerHTML = '<i class="fas fa-eye-slash"></i>';
+      } else {
+        input.type = 'password';
+        button.innerHTML = '<i class="fas fa-eye"></i>';
+      }
+    }
+
+    // Password strength checker
+    if (passwordInput) {
+      passwordInput.addEventListener('input', checkPasswordStrength);
+    }
+
+    function checkPasswordStrength() {
+      const password = passwordInput.value;
+      let strength = 0;
+
+      if (password.length >= 8) strength += 20;
+      if (/[a-z]/.test(password)) strength += 20;
+      if (/[A-Z]/.test(password)) strength += 20;
+      if (/[0-9]/.test(password)) strength += 20;
+      if (/[^A-Za-z0-9]/.test(password)) strength += 20;
+
+      if (password.length === 0) {
+        passwordStrength.style.width = '0%';
+        passwordStrength.style.backgroundColor = '#e0e0e0';
+        passwordFeedback.textContent = '';
+      } else {
+        passwordStrength.style.width = strength + '%';
+
+        if (strength < 40) {
+          passwordStrength.style.backgroundColor = '#dc3545';
+          passwordFeedback.textContent = 'Weak password';
+          passwordFeedback.style.color = '#dc3545';
+        } else if (strength < 80) {
+          passwordStrength.style.backgroundColor = '#ffc107';
+          passwordFeedback.textContent = 'Medium strength password';
+          passwordFeedback.style.color = '#ffc107';
+        } else {
+          passwordStrength.style.backgroundColor = '#28a745';
+          passwordFeedback.textContent = 'Strong password';
+          passwordFeedback.style.color = '#28a745';
+        }
+      }
+    }
+
+    // Confirm password validation
+    if (confirmPasswordInput) {
+      confirmPasswordInput.addEventListener('input', function() {
+        if (confirmPasswordInput.value !== passwordInput.value) {
+          confirmPasswordFeedback.textContent = 'Passwords do not match';
+          confirmPasswordFeedback.style.color = '#dc3545';
+        } else {
+          confirmPasswordFeedback.textContent = 'Passwords match';
+          confirmPasswordFeedback.style.color = '#28a745';
+        }
+      });
+    }
+
+    // Role selection
+    if (buyerBtn) {
+      buyerBtn.addEventListener('click', function() {
+        this.style.backgroundColor = 'var(--primary)';
+        this.style.color = 'white';
+        sellerBtn.style.backgroundColor = '#f8f9fa';
+        sellerBtn.style.color = 'var(--gray)';
+        selectedRole = 'buyer';
+        roleDisplay.textContent = 'buy';
+      });
+    }
+
+    if (sellerBtn) {
+      sellerBtn.addEventListener('click', function() {
+        this.style.backgroundColor = 'var(--primary)';
+        this.style.color = 'white';
+        buyerBtn.style.backgroundColor = '#f8f9fa';
+        buyerBtn.style.color = 'var(--gray)';
+        selectedRole = 'seller';
+        roleDisplay.textContent = 'sell';
+      });
+    }
+
+    // Module selection update
+    if (selectedModule) {
+      selectedModule.addEventListener('change', function() {
+        const moduleNames = {
+          'localFarming': 'Local Farming',
+          'buildingHousing': 'Building and Housing',
+          'healthcare': 'Healthcare',
+          'carSales': 'Car Sales',
+          'foodServices': 'Food Services'
+        };
+        moduleDisplay.textContent = moduleNames[this.value];
+      });
+    }
+  });
+
+  // Enhanced signup function
+  function enhancedSignup() {
+    const fullName = document.getElementById('fullName').value;
+    const email = document.getElementById('signupEmail').value;
+    const password = document.getElementById('signupPassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    const selectedRole = document.getElementById('buyerBtn').style.backgroundColor === 'var(--primary)' ? 'buyer' : 'seller';
+    const selectedModule = document.getElementById('selectedModule').value;
+    const termsAccepted = document.getElementById('terms').checked;
+
+    const errorMessage = document.getElementById('signupErrorMessage');
+    const successMessage = document.getElementById('signupSuccessMessage');
+
+    // Hide messages initially
+    errorMessage.classList.remove('visible');
+    successMessage.classList.remove('visible');
+
+    // Validation
+    if (!fullName || !email || !password || !confirmPassword) {
+      errorMessage.textContent = 'Please fill all fields.';
+      errorMessage.classList.add('visible');
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      errorMessage.textContent = 'Passwords do not match.';
+      errorMessage.classList.add('visible');
+      return;
+    }
+
+    if (password.length < 8) {
+      errorMessage.textContent = 'Password must be at least 8 characters long.';
+      errorMessage.classList.add('visible');
+      return;
+    }
+
+    if (!termsAccepted) {
+      errorMessage.textContent = 'Please accept the Terms & Conditions.';
+      errorMessage.classList.add('visible');
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      errorMessage.textContent = 'Please enter a valid email address.';
+      errorMessage.classList.add('visible');
+      return;
+    }
+
+    // Create enhanced user object
+    const userData = {
+      fullName,
+      email,
+      password, // In production, hash this password
+      userType: selectedRole,
+      module: selectedModule,
+      dateCreated: new Date().toISOString()
+    };
+
+    // Save user data (using your existing saveUserData function)
+    if (saveUserData(userData)) {
+      successMessage.classList.add('visible');
+
+      // Clear form
+      document.getElementById('fullName').value = '';
+      document.getElementById('signupEmail').value = '';
+      document.getElementById('signupPassword').value = '';
+      document.getElementById('confirmPassword').value = '';
+      document.getElementById('terms').checked = false;
+
+      // Reset password strength indicator
+      document.getElementById('passwordStrength').style.width = '0%';
+      document.getElementById('passwordFeedback').textContent = '';
+      document.getElementById('confirmPasswordFeedback').textContent = '';
+
+      // Switch to login after a delay
+      setTimeout(() => {
+        switchToLogin();
+      }, 2000);
+    } else {
+      errorMessage.textContent = 'An account with this email already exists.';
+      errorMessage.classList.add('visible');
+    }
+  }
 
   // Login modal functions
   function openLoginModal() {
@@ -2353,6 +1875,43 @@
   }
 
   // Login function
+  // function login() {
+  //   const email = document.getElementById('loginEmail').value;
+  //   const password = document.getElementById('loginPassword').value;
+  //   const errorMessage = document.getElementById('errorMessage');
+  //   const successMessage = document.getElementById('successMessage');
+  //
+  //   // Hide messages initially
+  //   errorMessage.classList.remove('visible');
+  //   successMessage.classList.remove('visible');
+  //
+  //   // Validate user
+  //   const user = validateUser(email, password);
+  //
+  //   if (user) {
+  //     // Show success message
+  //     successMessage.classList.add('visible');
+  //
+  //     // Store current user in session
+  //     sessionStorage.setItem('currentUser', JSON.stringify(user));
+  //
+  //     // Redirect based on user type
+  //     setTimeout(() => {
+  //       if (user.userType === 'seller') {
+  //         window.location.href = 'dashboards/seller/BuildingAndHousing.html';
+  //       } else {
+  //         window.location.href = 'dashboards/LocalFarmingSellerDashboard.html';
+  //         // window.location.href = 'dashboards/buyer/BuildingAndHousingBuyer.html';
+  //       }
+  //       closeLoginModal();
+  //     }, 1500);
+  //   } else {
+  //     // Show error message
+  //     errorMessage.classList.add('visible');
+  //   }
+  // }
+
+  // Login function with module-based redirection
   function login() {
     const email = document.getElementById('loginEmail').value;
     const password = document.getElementById('loginPassword').value;
@@ -2373,14 +1932,38 @@
       // Store current user in session
       sessionStorage.setItem('currentUser', JSON.stringify(user));
 
-      // Redirect based on user type
+      // Redirect based on user type and selected module
       setTimeout(() => {
+        // Define module to dashboard mappings
+        const moduleMappings = {
+          // Seller dashboards
+          seller: {
+            localFarming: 'dashboards/seller/LocalFarmingSellerDashboard.html',
+            buildingHousing: 'dashboards/seller/BuildingAndHousing.html',
+            healthcare: 'dashboards/seller/Healthcare.html',
+            carSales: 'dashboards/seller/CarSales.html',
+            foodServices: 'dashboards/seller/FoodServices.html'
+          },
+          // Buyer dashboards
+          buyer: {
+            localFarming: 'dashboards/buyer/LocalFarmingBuyerDashboard.html',
+            buildingHousing: 'dashboards/buyer/BuildingAndHousingBuyer.html',
+            healthcare: 'dashboards/buyer/Healthcare.html',
+            carSales: 'dashboards/buyer/CarSales.html',
+            foodServices: 'dashboards/buyer/FoodServices.html'
+          }
+        };
+
+        // Get the user's selected module or default to buildingHousing
+        const userModule = user.module || 'buildingHousing';
+
+        // Redirect to the appropriate dashboard
         if (user.userType === 'seller') {
-          window.location.href = 'dashboards/seller/BuildingAndHousing.html';
+          window.location.href = moduleMappings.seller[userModule] || moduleMappings.seller.buildingHousing;
         } else {
-          // window.location.href = 'dashboards/buyer/.html';
-          window.location.href = 'dashboards/buyer/BuildingAndHousingBuyer.html';
+          window.location.href = moduleMappings.buyer[userModule] || moduleMappings.buyer.buildingHousing;
         }
+
         closeLoginModal();
       }, 1500);
     } else {
